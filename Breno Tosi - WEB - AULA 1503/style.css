@@ -1,0 +1,29 @@
+body {
+    font-family: calibri;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    color: rgba(33, 33, 189, 0.966);
+
+}
+
+img {
+    height: 150px;
+    width: 300px;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(8, 162, 209);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(1, 1, 129);
+
+}
