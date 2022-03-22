@@ -1,0 +1,39 @@
+/* carregando google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300;400&family=Roboto+Mono&display=swap');
+
+body {
+    background-color: #caf0f8;
+
+}
+
+h1,
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #03045e;
+    font-family: 'Roboto Mono',
+        monospace;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 20px #000;
+
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    font-style: italic;
+
+}
+
+p {
+    font-size: 14px;
+    color: #023e8a;
+    font-family: 'Red Hat Mono',
+        monospace;
+    text-align: left;
+
+}
+
+.cor-verde {
+    background-color: #48cae4;
+}
