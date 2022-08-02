@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue-100:hsl(240, 100%, 100%);
+    --blue-90: hsl(240, 100%, 90%);
+    --blue-80: hsl(240, 100%, 80%);
+    --blue-70: hsl(240, 100%, 70%);
+    --blue-60: hsl(240, 100%, 60%);
+    --blue-50: hsl(240, 100%, 50%);
+    --blue-40: hsl(240, 100%, 40%);
+    --blue-30: hsl(240, 100%, 30%);
+    --blue-20: hsl(240, 100%, 20%);
+    --blue-10: hsl(240, 100%, 10%);
+    --blue-00: hsl(240, 100%, 00%);
+
+}
+
+.blue-20{
+    background-color: var(--blue-20);
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
