@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Usando Grid</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Minha CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-purple" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- container principal -->
+    <main class="container my-5">
+
+        <!-- criando a linha do grid -->
+        <article class="row">
+
+            <!-- 1a.coluna -->
+            <div class="col-12 col-sm-12 col-md-6">
+                <img src="./images/developer-activity-animate.svg" alt="Imagem animada">
+            </div>
+            <!-- fim 1a.coluna -->
+
+            <!-- 2a. coluna -->
+            <div class="col-12 col-sm-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="display-2 my-4 text-purple">MyWeb</h2>
+                <p class="lead text-center my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                    necessitatibus molestias aut cum esse beatae sed. Eveniet voluptatum velit vero?</p>
+                <a href="" class="btn btn-outline-purple mt-3">Mais informações</a>
+            </div>
+            <!-- fim 2a. coluna -->
+
+        </article>
+        <!-- fim da linha do grid -->
+
+        <h2 class="display-4 text-purple text-center mb-4">Soluções</h2>
+
+        <!-- linha do grid -->
+        <div class="row">
+
+            <!-- 1o. card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./images/cards/Content creation_Isometric.svg" class="card-img-top" alt="Imagem Aula">
+                    <div class="card-body">
+                        <h5 class="card-title">UX / UI</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-purple">Clique e conheça</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim 1o. card -->
+
+            <!-- 2o. card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./images/cards/Iphone_Isometric.svg" class="card-img-top" alt="Imagem Aula">
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-purple">Clique e conheça</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim 2o. card -->
+
+            <!-- 3o. card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./images/cards/Landing Page_Isometric.svg" class="card-img-top" alt="Imagem Aula">
+                    <div class="card-body">
+                        <h5 class="card-title">Front-End</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-purple">Clique e conheça</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim 3o. card -->
+
+            <!-- 4o. card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./images/cards/Online team meeting _Isometric.svg" class="card-img-top" alt="Imagem Aula">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-purple">Clique e conheça</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim 4o. card -->
+
+            <!-- 5o. card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./images/cards/Social Media_Isometric.svg" class="card-img-top" alt="Imagem Aula">
+                    <div class="card-body">
+                        <h5 class="card-title">Social Media</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-purple">Clique e conheça</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim 5o. card -->
+
+            <!-- 6o. card -->
+            <div class="my-3 col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./images/cards/Under Constructions _Isometric.svg" class="card-img-top" alt="Imagem Aula">
+                    <div class="card-body">
+                        <h5 class="card-title">Back-End</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-outline-purple">Clique e conheça</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim 6o. card -->
+
+        </div>
+        <!-- fim linha do grid -->
+
+
+        <h2 class="display-4 text-purple text-center my-2">Criar conta</h2>
+
+        <form id="dados" name="dados" method="post" action="">
+            <div class="row">
+                <div class="col-md-4 my-3">
+                    <label for="usuario">Seu nome</label>
+                    <input type="text" id="usuario" name="usuario" class="form-control" placeholder="coloque seu nome" minlength="5" maxlength="10" required> 
+                </div>
+                <!-- Inicio segundo campo -->
+                <div class="col-md-4 my-3">
+                    <label for="usuario">Endereço</label>
+                    <input type="text" id="usuario" name="usuario" class="form-control" placeholder="coloque seu endereço" minlength="5" maxlength="10" required> 
+                </div>
+                <div class="col-md-4 my-3">
+                    <label for="usuario">Telefone</label>
+                    <input type="tel" id="usuario" name="usuario" class="form-control" placeholder="coloque seu Telefone" minlength="11" maxlength="11" required> 
+                </div>
+                <div class="col-md-4 my-3">
+                    <label for="usuario">Senha </label>
+                    <input type="password" id="usuario" name="usuario" class="form-control" placeholder="coloque sua senha" minlength="5" maxlength="10" required> 
+                </div>
+                <div class="col-md-4 my-3">
+                    <label for="usuario">Data de nascimento</label>
+                    <input type="date" id="usuario" name="usuario" class="form-control" required> 
+                </div>
+                <div class="col-md-4 my-3">
+                    <label for="usuario">Qual seu time</label>
+                    <select name="atuacao" required class="form-select">
+                        <option value="">Flamengo</option>
+                        <option value="">Corinthians</option>
+                        <option value="">Palmeiras</option>
+                        <option value="">SP</option>
+                        
+                    </select>
+                </div>
+                <div class="col-md-4 my-3">
+                    <p>Tipo de conta</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="inlineCheckbox1" value="1" name="conta">
+                        <label class="form-check-label" for="inlineCheckbox1">Free</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="inlineCheckbox2" value="2" name="conta">
+                        <label class="form-check-label" for="inlineCheckbox2">Pro</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="inlineCheckbox3" value="3" name="conta">
+                        <label class="form-check-label" for="inlineCheckbox3">Plus</label>
+                      </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <label for="usuario">cpf</label>
+                    <input type="number" id="usuario" name="usuario" class="form-control" placeholder="coloque seu CPF" required> 
+                </div>
+                <div class="col-md-4 my-3">
+                    <label for="usuario">Diversos</label>
+                    <input type="url" id="usuario" name="usuario" class="form-control" placeholder="coloque seu Site" minlength="11" maxlength="11" required> 
+                </div>
+                <div class="col-md-12 my-3">
+                    <label for="usuario">Fale sobre voce</label>
+                    <textarea name="" class="form-control"></textarea> 
+                </div>
+                <div class="col-12 my-3 d-flex justify-content-end">
+                    <input type="reset" value="Limpar dados" class="btn btn-danger me-2">
+                    <input type="submit" value="javascript" class="btn btn-warning me-2 text-light">
+                    <input type="submit" value="Criar conta" class="btn btn-success">
+                </div>
+
+            </div>
+        </form>
+    <!-- Fim formulario -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/fU0VTqvEoIM" title="YouTube video" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/C89vASRXKzA" title="YouTube video" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    </main>
+    <!-- fim container principal -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
